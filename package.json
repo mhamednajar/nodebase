@@ -1,7 +1,6 @@
 {
   "name": "revision-2cinfo1",
   "version": "1.0.0",
-  "description": "",
   "type": "module",
   "main": "server.js",
   "scripts": {
@@ -12,11 +11,22 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.18.2",
+    "express": "^4.21.2",
     "express-validator": "^6.15.0",
     "mongoose": "^6.10.0",
     "morgan": "^1.10.0",
     "multer": "^1.4.5-lts.1",
-    "nodemon": "^2.0.20"
-  }
+    "nodemon": "^2.0.20",
+    "revision-2cinfo1": "file:"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/medhosni/revision2Cinfo1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/medhosni/revision2Cinfo1/issues"
+  },
+  "homepage": "https://github.com/medhosni/revision2Cinfo1#readme",
+  "keywords": [],
+  "description": ""
 }
